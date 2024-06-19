@@ -50,20 +50,6 @@
             <a href="login.php" class="btn">Login</a>
         </div>
     </div>
-    <script>
-        // Carousel functionality
-        let slideIndex = 0;
-        const slides = document.querySelectorAll('.slide');
 
-        function showSlides() {
-            slides.forEach((slide, index) => {
-                slide.style.display = index === slideIndex ? 'block' : 'none';
-            });
-            slideIndex = (slideIndex + 1) % slides.length;
-            setTimeout(showSlides, 3000); 
-        }
-
-        document.addEventListener('DOMContentLoaded', showSlides);
-    </script>
 </body>
 </html>
